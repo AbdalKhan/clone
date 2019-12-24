@@ -4,7 +4,7 @@ $(function(){
 
     // show first slide
 
-    $activeSlide.addClass("showing");
+    // $activeSlide.addClass("showing");
 
     $("#decline").on("click", function(){
 
