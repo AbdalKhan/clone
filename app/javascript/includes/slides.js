@@ -12,7 +12,15 @@ $(function(){
     });
 
     $("#approve").on("click", function(){
+            var user_id = $activeSlide.data("id");
 
+            console.log(user_id);
+
+            $.ajax({
+                url: "/approve/" + user_id,
+                method: "post",
+                dataType: "ajax"
+            })
             goToSlide('approve');
     });
   

@@ -11,6 +11,7 @@ require('jquery')
 require("bootstrap")
 require("@fortawesome/fontawesome-free")
 require("../includes/slides.js")
+require("../includes/matches.js")
 
 import "@fortawesome/fontawesome-free/css/all.css";
 
